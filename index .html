@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asad Ullah - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Asad Ullah
+          <div class="contact_info">
+            <img src="/html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          asadenginear@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +923459131765
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="/html_finalprojimages/My Profile Picture.png" class="profile_image" style="height: 500px; width: 500px;">
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Asad Ullah! <img src="/html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            <p>
+                I am a <strong>Computer Engineer</strong> and <strong>Graphic Designer</strong> certified by the <strong>Higher Education Commission of Pakistan</strong>.
+                Additionally, I am a <strong>Web Developer</strong> certified by <strong>IBM</strong>.
+                I also hold <strong>Microsoft Excel</strong> certification from <strong>Microsoft</strong> and a <strong>Career Development</strong> certification from the <strong>University of Pennsylvania</strong>.
+            </p><br>
+    
+            <style>
+                p {
+                    margin-bottom: 30px;
+                }
+            </style>
+            <br><p>
+                Throughout my career, I have worked with both national and international clients, successfully completing numerous projects.
+                I am excited to continue collaborating with new clients and helping them achieve their goals.
+            </p>
+            
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="/html_finalprojimages/CSS3.png"/>
+            <h6>CSS</h6>
+            <p>5 years experience</p>
+          </div>  
+
+          
+          <div class="skill">
+            <img src="/html_finalprojimages/My-Icon.png"/>
+            <h6>Graphic Designer</h6>
+            <p>5 years experience</p>
+          </div>  
+
+          
+          <div class="skill">
+            <img src="/html_finalprojimages/C++.jpg.jpg"/>
+            <h6>C++</h6>
+            <p>4 years experience</p>
+          </div>  
+  
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Logo Design</h3>
+            <ul>
+              <li>I can deisgn the best logo for your brand, which best reflect your brand and earn you value in the market.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Wordpress Website</h3>
+            <ul>
+              <li>If you are planning to build a website for your company in a short interval of time, I will design the the website.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Coding base Website</h3>
+            <ul>
+              <li>If you want full customization, and security for company, I am here to help you with that by developing a coding base webite in html,css and javascipt.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Exceptional Leadership and Management Skills
+          Asad Ullah demonstrates outstanding leadership as a Project Manager, ensuring that tasks 
+          are completed efficiently and on time. His ability to coordinate between team members and 
+          provide clear instructions fosters a highly productive and collaborative environment.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Technical Expertise and Innovation
+          Asad Ullah's expertise in cybersecurity, web development, and graphic design is evident in his 
+          ability to deliver high-quality work. He combines technical knowledge with creative thinking, 
+          making him an asset in both technical and design-oriented projects.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Dedication and Professionalism
+          Asad Ullah is known for his dedication to excellence and his professional demeanor. 
+          He manages deadlines with precision and communicates effectively with stakeholders at all levels.  
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+    <a href="#home">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+        <!--<a href="Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
